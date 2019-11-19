@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript Quiz</title>
+        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            
+                <div class="row">
+                    <div id="timer">
+                        <div id="counter"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4 text-center">
+                        <button class="btn btn-primary" id="start" type="button">Start Quiz</button>
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+                <div id="quiz" style="display: none">
+                    <h1 class="text-center">
+                        <div id="question"></div>
+                    </h1>
+                    <div class="text-center" id="choices">
+                        <div class="col" id="questionTitle"></div>
+                        <button class="btn btn-primary" id="answer1" onclick="checkAnswer('answer1')" type="button">A</button>
+                        <button class="btn btn-primary" id="answer2" onclick="checkAnswer('answer2')" type="button">B</button>
+                        <button class="btn btn-primary" id="answer3" onclick="checkAnswer('answer3')" type="button">C</button>
+                        <button class="btn btn-primary" id="answer4" onclick="checkAnswer('answer4')" type="button">D</button>
+                    </div>
+
+                    
+                </div>
+
+                <div class"row"  style="display: none">
+                    <div class="col" id="resultZone"></div>
+                    <div class"col" id="score"></div>
+                </div>
+            
+        </div>
+        <script src="questions.js"></script>
+        <script src="scriptqtest.js"></script>
+    </body>
+</html>
