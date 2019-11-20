@@ -4,6 +4,9 @@ Live Link: https://jedwards87.github.io/timed-quiz/
 
 In this timed quiz the user lands on a starting page with a "Start Quiz" button. Upon clicking the "Start Quiz" button it disapears and the user is then displayed a question and 4 answers below it. The quiz starts with 75 seconds and goes down in 1 second increments. If the user gets the question right the time is increased by 5 seconds. If the user gets the question wrong the time is decreased by 15 seconds. When all the questions are answered the question and answers disapeer and the user is left with their final score.
 
+![timed-quiz-sh](https://user-images.githubusercontent.com/57024833/69209780-28397500-0b1e-11ea-9c43-fb687b6dda0b.PNG)
+
+
 MIT License
 
 Copyright (c) [2019] [Jesse Edwards]
